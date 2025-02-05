@@ -1,0 +1,38 @@
+## Projeto de Previsão de Preços de Imóveis
+
+Este projeto utiliza um modelo de Random Forest para prever os preços de imóveis com base em diversas características dos dados. O pipeline inclui pré-processamento, treinamento, validação e salvamento do modelo.
+
+## Descrição do Projeto
+
+O objetivo deste projeto é prever os preços de imóveis utilizando variáveis como localização, tipo de quarto, disponibilidade, entre outras. O modelo de Random Forest foi escolhido devido à sua capacidade de lidar com dados complexos e variáveis categóricas, além de ser robusto contra overfitting.
+
+## Estrutura do Projeto
+
+- `data/`: Contém os arquivos de dados.
+- `notebooks/`: Jupyter Notebooks com análises exploratórias e desenvolvimento do modelo.
+- `models/`: Modelos treinados salvos.
+
+## Requisitos
+
+- Python 3.6+
+- Pandas
+- Scikit-learn
+- Joblib
+- NumPy
+
+Para instalar os pacotes necessários, execute:
+```bash
+pip install -r requirements.txt
+```
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/camilamlima/PrevisaoValorImovel.git
+   cd PrevisaoValorImovel
+   ```
+
+2. O notebook foi salvo na pasta `notebook/` como `Projeto_Indicium_CamilaLima`.
+3. O mesmo notebook está em versão PDF como `Projeto_Indicium_CamilaLima.pdf`.
+4. O modelo treinado foi salvo na pasta `models/` como `modelo_previsao_preco.pkl`.
